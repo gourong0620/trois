@@ -1,0 +1,21 @@
+{
+    "name": "luren/trois",
+    "description": "trois && 2020/08/21",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luren",
+            "email": "1012004024@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4":{
+            "Trois\\Library":"src/Trois/Libraty"
+        }
+    }
+}
